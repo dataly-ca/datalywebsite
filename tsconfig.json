@@ -1,4 +1,12 @@
 {
+  "compilerOptions": {
+    "composite": true, // Allows project references
+    "outDir": "./dist", // Specifies the output folder for compiled files
+    "moduleResolution": "node", // Uses Node.js module resolution strategy
+    "target": "ES5", // Ensures compatibility with older browsers
+    "module": "ESNext", // For ES modules
+    "jsx": "react-jsx" // Ensures React JSX is supported
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
